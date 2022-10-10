@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
     <link rel="manifest" href="/manifest.json">
     <link rel="apple-touch-icon" href="/pwa-logo192.png">
     <title>PWA Example</title>
@@ -11,6 +13,9 @@
 
 <body>
     <h1>PWA Example</h1>
+    <div class="btn_c">
+        <button class="pwa_install_btn">Install</button>
+    </div>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js', { scope: '/' });
