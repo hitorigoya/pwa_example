@@ -6,11 +6,27 @@ body {
 h1 {
     text-align: center;
     font-weight: normal;
+    line-height: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.images {
+    display: grid;
+    justify-content: center;
+    gap: 64px;
 }
 
 .btn_c {
     display: flex;
     justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 64px;
 }
 
 .pwa_install_btn {
