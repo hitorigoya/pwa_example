@@ -1,0 +1,14 @@
+{
+    "name": "PWA Example",
+    "description": "PWA のテスト",
+    "background_color": "#F0C362",
+    "display": "standalone",
+    "start_url": "/",
+    "theme_color": "#F0C362",
+    "icons": [
+        {
+            "src": "/pwa-logo512.png",
+            "sizes": "512x512"
+        }
+    ]
+}
